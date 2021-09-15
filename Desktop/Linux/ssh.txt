@@ -1,0 +1,7 @@
+ssh username@serverhost
+ls .ssh : For reading the ssh keys
+ssh-keygen : For generating a new key
+ssh-copy-id ssh username@serverhost
+scp filename ssh username@serverhost:/path ( for copying files from server to local)
+
+
